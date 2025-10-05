@@ -18,3 +18,9 @@ print(message)
 # but using this approach we have a issue, if i want to print the message with single quote i have to escape >> 'Ali\'s World'. with double quotes we can use single quote
 message = "He said, Ali's World!"
 print(message)
+
+
+message = """Hello There, We can print line in multiple lines.
+And we can use double quote three times to print the message.
+"""
+print(message)
