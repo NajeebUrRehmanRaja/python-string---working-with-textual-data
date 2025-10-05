@@ -10,3 +10,5 @@ print(message.swapcase())
 print(message.count("l"))
 #  we can replace the string
 print(message.replace("Python", "Java"))
+#  we can find the index of the first occurrence of a substring in a string
+print(message.find("Python"))
